@@ -16,15 +16,14 @@
     width: 12px;
     height: 12px;
     border-radius: 10px;
-    border: 1px solid $primary;
-    background-color: $primary;
+    border: 1px solid $primary-dark;
     animation: dot 3s infinite ease-in-out;
   }
   &::after {
     width: 8px;
     height: 8px;
-    border-right: 1px solid $primary;
-    border-bottom: 1px solid $primary;
+    border-right: 1px solid $primary-dark;
+    border-bottom: 1px solid $primary-dark;
     transform: rotate(45deg);
     animation: arrow 3s infinite ease-in-out;
     animation-delay: 0.75s;
@@ -38,8 +37,7 @@
       display: block;
       margin: 5px auto;
       border-radius: 10px;
-      background-color: $primary;
-      border: 1px solid $primary;
+      border: 1px solid $primary-dark;
       animation: dot 3s infinite ease-in-out;
     }
     &::before {
