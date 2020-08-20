@@ -21,8 +21,8 @@
     animation: dot 3s infinite ease-in-out;
   }
   &::after {
-    width: 7px;
-    height: 7px;
+    width: 8px;
+    height: 8px;
     border-right: 1px solid $primary;
     border-bottom: 1px solid $primary;
     transform: rotate(45deg);
