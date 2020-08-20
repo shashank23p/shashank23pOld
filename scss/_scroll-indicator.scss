@@ -17,6 +17,7 @@
     height: 12px;
     border-radius: 10px;
     border: 1px solid $primary;
+    background-color: $primary;
     animation: dot 3s infinite ease-in-out;
   }
   &::after {
@@ -37,6 +38,7 @@
       display: block;
       margin: 5px auto;
       border-radius: 10px;
+      background-color: $primary;
       border: 1px solid $primary;
       animation: dot 3s infinite ease-in-out;
     }
