@@ -2,6 +2,7 @@ const typedTextSpan = document.querySelector(".typed");
 const cursorSpan = document.querySelector(".cursor");
 const scrollIndicator = document.querySelector(".scroll-indicator");
 const content = document.querySelector(".content");
+const body = document.querySelector("body");
 const textArray = [
   "frontend developer",
   "backend developer",
@@ -49,8 +50,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // On DOM Load initiate the effect
   if (textArray.length) setTimeout(type, newTextDelay - 1000);
 });
-content.onscroll = function () {
-  if (content.scrollTop > 50 || content.scrollTop > 50) {
+
+body.onscroll = function () {
+  var scrollTop = document.scrollingElement.scrollTop;
+  if (scrollTop > 50) {
     scrollIndicator.style.display = "none";
   } else {
     scrollIndicator.style.display = "block";
