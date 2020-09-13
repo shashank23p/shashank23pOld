@@ -17,6 +17,9 @@ a {
 }
 .menubar-wrapper {
   width: 33%;
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 .menubar {
   display: flex;
