@@ -112,6 +112,12 @@ hr {
 }
 .social-div {
   font-size: 50px;
+  a {
+    display: inline-block;
+    &:hover {
+      transform: scale(1.2, 1.2);
+    }
+  }
 }
 
 @keyframes blink {
